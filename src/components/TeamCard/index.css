@@ -1,0 +1,86 @@
+.team-item{
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    margin: 10px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    background-color: #ffffff33;
+}
+
+.team-image{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.team-title{
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.nav-link{
+    text-decoration: none;
+}
+
+
+@media screen and ((min-width:577px) and (max-width:767px)){
+    .team-item{
+        width: 220px;
+    }
+    .team-image{
+        width: 130px;
+        height: 100px;
+    }
+    .team-title{
+        font-size: 20px;
+        max-width: 150px;
+        text-align: left;
+    }
+} 
+
+
+@media screen and ((min-width:768px) and (max-width:992px)){
+    .team-image{
+        width: 120px;
+        height: 100px;
+    }
+
+    .team-item{
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+    }
+    .team-title{
+        font-size: 16px;
+        max-width: 150px;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width:992px){
+    .team-item{
+        width: 350px;
+        padding: 15px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .team-image{
+        width: 120px;
+        height: 100px;
+        margin-right: 40px;
+    }
+
+    .team-title{
+        font-size: 20px;
+        align-self: flex-start;
+        display: flex;
+    }
+}

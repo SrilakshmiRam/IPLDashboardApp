@@ -1,0 +1,53 @@
+.app-container{
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+  }
+  
+  .heading-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .logo{
+    width: 30px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .app-heading{
+    font-family:'Lobster';
+    font-weight: 800;
+    font-size: 30px;
+    color: #ffffff;
+  }
+  
+  
+  .loader-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .teams-list{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+  }
+
+  @media screen and (min-width:768px){
+    .app-container{
+      background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+    }
+  }

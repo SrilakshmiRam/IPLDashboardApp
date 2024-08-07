@@ -1,0 +1,13 @@
+.notfound-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.notfound-title{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+}
